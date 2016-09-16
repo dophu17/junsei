@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>メール通知システム | 順正保育園</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="50%"><input type="button" onClick="location.href='menu.html'" value="管理者メニューへ" /></td>
+    <td width="50%" align="right">&nbsp;</td>
+  </tr>
+</table>
+<hr noshade="noshade" />
+<table width="920" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td class="col1">■メール通知システム　＞　メールの作成</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="1" cellspacing="0" cellpadding="5">
+      <tr>
+        <td width="25%" class="col3">送信先クラス名&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input type="checkbox" name="checkbox" id="checkbox" />ゆり組<br />
+          <input type="checkbox" name="checkbox2" id="checkbox2" />ひまわり組<br />
+          <input type="checkbox" name="checkbox3" id="checkbox3" />すみれ組<br />
+          <input type="checkbox" name="checkbox4" id="checkbox4" />ひなぎく組<br />
+          <input type="checkbox" name="checkbox5" id="checkbox5" />ちゅーりっぷ組</td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">宛名<span class="f_caution">&nbsp;[*]</span></td>
+        <td><input type="radio" name="radio" id="radio" value="radio" />
+          保護者名あて　　　
+          <input type="radio" name="radio2" id="radio2" value="radio2" />
+          園児名あて</td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">差出人名&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input name="textfield2" type="text" id="textfield2" value="順正保育園" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">差出人メールアドレス&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input name="textfield3" type="text" id="textfield3" size="50" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">テストメール送信先</td>
+        <td><input name="textfield" type="text" id="textfield" size="50" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="1" cellspacing="0" cellpadding="5">
+      <tr>
+        <td width="25%" class="col3">タイトル&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input name="textfield6" type="text" id="textfield6" size="50" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">本文<span class="f_caution">&nbsp;[*]</span></td>
+        <td>＊＊＊＊様（＊＊＊＊くん／ちゃん）　←1行目には上記で指定した宛名が自動で入ります<br />
+          <br />          
+          <textarea name="textfield5" cols="70" rows="10" id="textfield5"></textarea></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">添付ファイル</td>
+        <td><input type="file" name="textfield4" id="textfield4" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><input type="button" onClick="location.href='mail_regist_check.html'" value="次へ" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

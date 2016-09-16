@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>メール通知システム | 順正保育園</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="50%"><input type="button" onClick="location.href='menu.html'" value="管理者メニューへ" /></td>
+    <td width="50%" align="right">&nbsp;</td>
+  </tr>
+</table>
+<hr noshade="noshade" />
+<table width="920" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td class="col1">■メール通知システム　＞　メールアドレス・名前の新規登録</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="1" cellspacing="0" cellpadding="5">
+      <tr>
+        <td width="25%" class="col3">クラス名&nbsp;<span class="f_caution">[*]</span></td>
+        <td><select name="select" id="select">
+          <option selected="selected">ゆり組</option>
+          <option>ひまわり組</option>
+          <option>すみれ組</option>
+          <option>ひなぎく組</option>
+          <option>ちゅーりっぷ組</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">園児名&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input type="text" name="textfield" id="textfield" />
+          <input type="radio" name="radio" value="radio" />
+          男　　　
+          <input type="radio" name="radio" value="radio2" />
+          女</td>
+      </tr>
+      <tr>
+        <td class="col3">園児名よみ&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input type="text" name="textfield4" id="textfield4" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">保護者名&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input type="text" name="textfield2" id="textfield2" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">メールアドレス&nbsp;<span class="f_caution">[*]</span></td>
+        <td><input name="textfield3" type="text" id="textfield3" size="50" /></td>
+      </tr>
+      <tr>
+        <td width="25%" class="col3">有効／無効</td>
+        <td><input type="checkbox" name="checkbox" id="checkbox" />
+          一時的にメールを送信しない</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><input type="button" onClick="location.href='meibo_regist_check.html'" value="登録する" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><input type="button" onClick="location.href='meibo_list.html'" value="登録済みメールアドレス一覧へ" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
