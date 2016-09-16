@@ -1,3 +1,3 @@
 ＊＊＊＊様
 <br><br>
-{{ $mail_old['mail_contents'] }}
+{!! $mail_old['mail_contents'] !!}

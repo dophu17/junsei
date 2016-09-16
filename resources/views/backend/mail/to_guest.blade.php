@@ -1,3 +1,3 @@
-{{ $mail_old['receiver_name'] }}
+{!! $mail_old['receiver_name'] !!}
 <br><br>
-{{ $mail_old['mail_contents'] }}
+{!! $mail_old['mail_contents'] !!}
